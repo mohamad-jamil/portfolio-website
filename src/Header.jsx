@@ -10,7 +10,7 @@ export default function Header() {
   };
 
   return (
-    <div className="header font-mono text-white bg-[#0d1213]">
+    <div className="header font-mono text-white bg-[#0d1213] fixed w-full top-0 left-0">
       <nav className="flex justify-between items-center p-6 mx-2">
         <div className="text-xl font-black">Mohamad Jamil</div>
 

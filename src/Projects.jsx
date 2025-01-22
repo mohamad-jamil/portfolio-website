@@ -8,13 +8,6 @@ export default function Projects() {
       technologies: ["React", "TypeScript", "Bootstrap", "Git"],
       description: "Generates recipe suggestions with a mistral AI backend.",
     },
-    {
-      imgUrl: "/pseudopass.png",
-      projectName: "PseudoPass",
-      technologies: ["React", "JavaScript", "Bootstrap", "Git"],
-      description:
-        "Generates pseudorandom passwords with customisability options.",
-    },
   ];
 
   return (
