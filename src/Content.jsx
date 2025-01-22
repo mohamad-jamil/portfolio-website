@@ -17,7 +17,9 @@ export default function Content() {
         curiosity to explore and innovate!
       </div>
       <div className="text-white font-mono text-center mt-4 mx-6 lg:max-w-4xl">
-        Beyond my career and academics, I enjoy...
+        Beyond my career and academics, I enjoy exploring new places, and
+        staying active through running and football. I also have a creative
+        side, which I channel through sewing and cross stitching!
       </div>
       <div className="flex items-center justify-center gap-8 mt-8">
         <a href="https://github.com/mohamad-jamil/" target="_blank">

@@ -5,7 +5,7 @@ export default function ProjectCard({
   description,
 }) {
   return (
-    <div className="w-80 h-96 p-4 bg-[#151d1e] rounded-2xl text-white font-mono flex flex-col items-center text-center">
+    <div className="w-80 h-96 p-4 mx-4 bg-[#151d1e] rounded-2xl text-white font-mono flex flex-col items-center text-center">
       <img
         src={imgUrl}
         alt={`image of ${projectName}`}
