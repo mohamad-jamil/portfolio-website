@@ -25,6 +25,9 @@ export default function Content() {
         <a href="https://linkedin.com/in/mohamad-jamil">
           <img src="/linkedin.svg" alt="linkedin logo" className="w-16 h-16" />
         </a>
+        <a href="https://www.credly.com/users/mohamad-jamil/">
+          <img src="/credly.svg" alt="credly logo" className="w-16 h-16" />
+        </a>
       </div>
     </div>
   );
