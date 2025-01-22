@@ -1,7 +1,9 @@
 export default function Content() {
   return (
     <div className="flex flex-col items-center pt-20 my-12">
-      <div className="text-white font-mono text-4xl">Hey world, I'm Jamil.</div>
+      <div className="text-white font-mono text-4xl text-center mx-8">
+        Hey world, I'm Jamil.
+      </div>
       <div className="w-40 h-1 bg-white mt-4"></div>
       <img
         src="/profile_picture.png"
@@ -14,7 +16,7 @@ export default function Content() {
         Science, I'm well equipped with a solid technical skillset and a
         curiosity to explore and innovate!
       </div>
-      <div className="text-white font-mono text-center mt-4">
+      <div className="text-white font-mono text-center mt-4 mx-14 lg:max-w-4xl">
         Beyond my career and academics, I enjoy...
       </div>
       <div className="flex items-center justify-center gap-8 mt-8">
