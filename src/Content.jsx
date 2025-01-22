@@ -19,13 +19,13 @@ export default function Content() {
         Beyond my career and academics, I enjoy...
       </div>
       <div className="flex items-center justify-center gap-8 mt-8">
-        <a href="https://github.com/mohamad-jamil/">
+        <a href="https://github.com/mohamad-jamil/" target="_blank">
           <img src="/github.svg" alt="github logo" className="w-16 h-16" />
         </a>
-        <a href="https://linkedin.com/in/mohamad-jamil">
+        <a href="https://linkedin.com/in/mohamad-jamil" target="_blank">
           <img src="/linkedin.svg" alt="linkedin logo" className="w-16 h-16" />
         </a>
-        <a href="https://www.credly.com/users/mohamad-jamil/">
+        <a href="https://www.credly.com/users/mohamad-jamil/" target="_blank">
           <img src="/credly.svg" alt="credly logo" className="w-16 h-16" />
         </a>
       </div>
