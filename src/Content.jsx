@@ -8,12 +8,11 @@ export default function Content() {
         alt="profile picture"
         className="w-64 h-64 rounded-full shadow-lg mt-8"
       />
-      <div className="text-white font-mono text-center mt-12">
+      <div className="text-white font-mono text-center mt-12 mx-14 lg:max-w-4xl">
         Hey! I'm Jamil, a recent graduate from UCL with a passion for software
-        development and data science. With a<br />
-        strong foundation in Computer Science, I'm well equipped with a solid
-        technical skillset and a curiosity to explore and innovate!
-        <br />
+        development and data science. With a strong foundation in Computer
+        Science, I'm well equipped with a solid technical skillset and a
+        curiosity to explore and innovate!
       </div>
       <div className="text-white font-mono text-center mt-4">
         Beyond my career and academics, I enjoy...
