@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import HeaderLink from "./HeaderLink";
 
 export default function Header() {
   return (
@@ -6,10 +7,12 @@ export default function Header() {
       <nav className="flex justify-between items-center p-6 mx-2">
         <div className="text-xl font-black">Mohamad Jamil</div>
         <div className="flex text-base gap-8">
-          <Link to="/" className="cursor-pointer hover:text-[#5ce546]">
-            Home
-          </Link>
-          <Link to="/projects" className="cursor-pointer hover:text-[#5ce546]">
+          <HeaderLink route="/" />
+          <HeaderLink route="/projects" />
+          <HeaderLink route="/skills" />
+          <HeaderLink route="/contact" />
+
+          {/* <Link to="/projects" className="cursor-pointer hover:text-[#5ce546]">
             Projects
           </Link>
           <Link to="/skills" className="cursor-pointer hover:text-[#5ce546]">
@@ -17,7 +20,7 @@ export default function Header() {
           </Link>
           <Link to="/contact" className="cursor-pointer hover:text-[#5ce546]">
             Contact
-          </Link>
+          </Link> */}
         </div>
       </nav>
     </div>
