@@ -1,6 +1,6 @@
 export default function Content() {
   return (
-    <div className="flex flex-col items-center mt-12">
+    <div className="flex flex-col items-center my-12">
       <div className="text-white font-mono text-4xl">Hey world, I'm Jamil.</div>
       <div className="w-40 h-1 bg-white mt-4"></div>
       <img

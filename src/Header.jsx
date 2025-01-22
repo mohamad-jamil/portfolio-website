@@ -11,16 +11,6 @@ export default function Header() {
           <HeaderLink route="/projects" />
           <HeaderLink route="/skills" />
           <HeaderLink route="/contact" />
-
-          {/* <Link to="/projects" className="cursor-pointer hover:text-[#5ce546]">
-            Projects
-          </Link>
-          <Link to="/skills" className="cursor-pointer hover:text-[#5ce546]">
-            Skills
-          </Link>
-          <Link to="/contact" className="cursor-pointer hover:text-[#5ce546]">
-            Contact
-          </Link> */}
         </div>
       </nav>
     </div>
