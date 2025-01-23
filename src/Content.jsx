@@ -1,6 +1,6 @@
 export default function Content() {
   return (
-    <div className="flex flex-col items-center pt-20 my-12">
+    <div className="flex flex-col items-center mt-20 py-36">
       <div className="text-white font-mono text-4xl text-center mx-8">
         Hey world, I'm Jamil.
       </div>
