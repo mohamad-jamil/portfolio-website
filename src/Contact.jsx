@@ -1,8 +1,9 @@
-import Header from "./Header";
-
 export default function Contact() {
   return (
-    <section className="bg-[#0d1213] flex flex-col items-center py-36 px-8">
+    <section
+      id="contact"
+      className="bg-[#0d1213] flex flex-col items-center py-36 px-8"
+    >
       <div className="text-white font-mono text-4xl">Contact</div>
       <div className="w-20 h-1 bg-white mt-4"></div>
       <h4 className="text-white text-center font-mono pt-12 text-xl">

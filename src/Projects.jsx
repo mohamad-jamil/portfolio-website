@@ -61,7 +61,10 @@ export default function Projects() {
   ];
 
   return (
-    <main className="bg-[#0d1213] flex flex-col items-center py-36">
+    <main
+      id="projects"
+      className="bg-[#0d1213] flex flex-col items-center py-36"
+    >
       <div className="text-white font-mono text-4xl">Projects</div>
       <div className="w-20 h-1 bg-white mt-4"></div>
       <div className="flex flex-wrap justify-center gap-10 my-12">

@@ -66,7 +66,7 @@ export default function Skills() {
   ];
 
   return (
-    <main className="bg-[#141d1e] flex flex-col items-center py-36">
+    <main id="skills" className="bg-[#141d1e] flex flex-col items-center py-36">
       <div className="text-white font-mono text-4xl">Skills</div>
       <div className="w-20 h-1 bg-white mt-4"></div>
       <div className="flex flex-wrap items-center justify-center gap-6 mt-8 px-8">
