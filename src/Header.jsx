@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import HeaderLink from "./HeaderLink";
 import { useState } from "react";
 
@@ -15,10 +14,10 @@ export default function Header() {
         <div className="text-xl font-black">Mohamad Jamil</div>
 
         <div className="hidden sm:flex text-base gap-8">
-          <HeaderLink route="/" />
-          <HeaderLink route="/projects" />
-          <HeaderLink route="/skills" />
-          <HeaderLink route="/contact" />
+          <HeaderLink section="About" active={true} />
+          <HeaderLink section="Projects" active={false} />
+          <HeaderLink section="Skills" active={false} />
+          <HeaderLink section="Contact" active={false} />
         </div>
 
         <button className="sm:hidden" onClick={toggleMobileMenu}>
