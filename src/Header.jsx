@@ -39,10 +39,10 @@ export default function Header() {
       </nav>
       {mobileMenuActive && (
         <div className="sm:hidden flex flex-col p-6 gap-3">
-          <HeaderLink route="/" />
-          <HeaderLink route="/projects" />
-          <HeaderLink route="/skills" />
-          <HeaderLink route="/contact" />
+          <HeaderLink section="About" active={true} />
+          <HeaderLink section="Projects" active={false} />
+          <HeaderLink section="Skills" active={false} />
+          <HeaderLink section="Contact" active={false} />
         </div>
       )}
     </div>
