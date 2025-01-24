@@ -11,10 +11,10 @@ export default function Content() {
         className="w-64 h-64 rounded-full shadow-lg mt-8"
       />
       <div className="text-white font-mono text-center mt-12 mx-6 lg:max-w-4xl">
-        Hey! I'm Jamil, a UCL graduate with a passion for software development
-        and data science. With a strong foundation in Computer Science, I'm well
-        equipped with a solid technical skillset and a curiosity to explore and
-        innovate!
+        Hey! I'm Jamil, a CS master's graduate from UCL with a passion for
+        software development and data science. With a strong foundation in
+        Computer Science, I'm well equipped with a solid technical skillset and
+        a curiosity to explore and innovate!
       </div>
       <div className="text-white font-mono text-center mt-4 mx-6 lg:max-w-4xl">
         Beyond my career and academics, I enjoy exploring new places, and
