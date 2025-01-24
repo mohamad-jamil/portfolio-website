@@ -19,7 +19,7 @@ export default function ProjectCard({
       <nav className="flex items-center gap-4 mt-4">
         {repoLink && (
           <a
-            href={repoLink || "https://www.mohamadjamil.dev"}
+            href={repoLink}
             target="_blank"
             className="bg-[#1e2a2f] px-2 py-1 w-32 rounded-md"
           >
@@ -28,7 +28,7 @@ export default function ProjectCard({
         )}
         {deploymentLink && (
           <a
-            href={deploymentLink || "https://www.mohamadjamil.dev"}
+            href={deploymentLink}
             target="_blank"
             className="bg-[#1e2a2f] px-2 py-1 w-32 rounded-md cursor-pointer"
           >

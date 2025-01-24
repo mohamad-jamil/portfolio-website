@@ -53,8 +53,8 @@ export default function Projects() {
       technologies: ["Unity", "C#", "REST APIs", "Figma", "Git"],
       description:
         "Volunteered for a startup called Tend to implement a speech-to-text questionnaire in a virtual reality meditation environment using Google's Speech-to-Text API.",
-      repoLink: "",
-      deploymentLink: "",
+      repoLink: "https://github.com/mohamad-jamil/tend-vr-enhancements",
+      deploymentLink: "https://mohamad-jamil.github.io/tend-vr-enhancements/",
     },
     {
       imgUrl: "/neural_nets.png",
