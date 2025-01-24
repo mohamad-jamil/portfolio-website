@@ -27,7 +27,7 @@ export default function Projects() {
       description:
         "A tool that generates recipe suggestions by sending user-inputted ingredients to a Mistral AI backend with a custom prompt.",
       repoLink: "https://github.com/mohamad-jamil/chef-mistral",
-      deploymentLink: "",
+      deploymentLink: "https://chef-mistral.vercel.app/",
     },
     {
       imgUrl: "/tetris_ai.jpg",
@@ -52,7 +52,7 @@ export default function Projects() {
       projectName: "TendVR",
       technologies: ["Unity", "C#", "REST APIs", "Figma", "Git"],
       description:
-        "Volunteered for a startup called Tend to implement a speech-to-text questionnaire in a virtual reality meditation environment using Google's Speech-to-Text API.",
+        "Developed features for a virtual reality mindfulness app at Tend, including a speech-to-text questionnaire, custom shaders, and gamification elements to enhance user engagement.",
       repoLink: "https://github.com/mohamad-jamil/tend-vr-enhancements",
       deploymentLink: "https://mohamad-jamil.github.io/tend-vr-enhancements/",
     },
