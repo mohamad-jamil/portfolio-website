@@ -21,7 +21,7 @@ export default function ProjectCard({
           <a
             href={repoLink || "https://www.mohamadjamil.dev"}
             target="_blank"
-            className="bg-slate-800 px-2 py-1 w-32 rounded-md"
+            className="bg-[#1e2a2f] px-2 py-1 w-32 rounded-md"
           >
             Repo<sup>↗</sup>
           </a>
@@ -30,7 +30,7 @@ export default function ProjectCard({
           <a
             href={deploymentLink || "https://www.mohamadjamil.dev"}
             target="_blank"
-            className="bg-slate-800 px-2 py-1 w-32 rounded-md cursor-pointer"
+            className="bg-[#1e2a2f] px-2 py-1 w-32 rounded-md cursor-pointer"
           >
             Deployment<sup>↗</sup>
           </a>
