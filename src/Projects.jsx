@@ -17,42 +17,42 @@ export default function Projects() {
         "A React-based pseudorandom password generator that creates secure and customisable passwords with adjustable length and complexity settings.",
     },
     {
-      imgUrl: "",
+      imgUrl: "/chef-mistral.png",
       projectName: "Chef Mistral",
       technologies: ["React", "JavaScript", "Mistral AI", "Git"],
       description:
         "A tool that generates recipe suggestions by sending user-inputted ingredients to a Mistral AI backend with a custom prompt.",
     },
     {
-      imgUrl: "",
+      imgUrl: "/tetris_ai.jpg",
       projectName: "Tetris AI",
       technologies: ["Python", "Tensorflow", "Git"],
       description:
         "Developed and trained an AI tool with Python and Tensorflow to play Tetris with high accuracy using reinforcement learning techniques.",
     },
     {
-      imgUrl: "",
+      imgUrl: "/navpog.png",
       projectName: "NavPog",
       technologies: ["Unity", "C#", "OpenARCloud", "Git"],
       description:
         "An augmented reality navigation and information system for UCL allowing users to view locations and collaborate with others to remotely place virtual objects on campus.",
     },
     {
-      imgUrl: "",
+      imgUrl: "/tend.png",
       projectName: "TendVR",
       technologies: ["Unity", "C#", "REST APIs", "Figma", "Git"],
       description:
         "Volunteered for a startup called Tend to implement a speech-to-text questionnaire in a virtual reality meditation environment using Google's Speech-to-Text API.",
     },
     {
-      imgUrl: "",
+      imgUrl: "/neural_nets.png",
       projectName: "Credit Card Default Prediction",
       technologies: ["Python", "Jupyter Notebook", "SciKit-Learn"],
       description:
         "Compared machine learning models in Python to determine which was best for the application of predicting credit card default.",
     },
     {
-      imgUrl: "",
+      imgUrl: "/linux.png",
       projectName: "Java Shell",
       technologies: ["Java", "Unix", "Git"],
       description:
