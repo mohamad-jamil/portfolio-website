@@ -8,6 +8,8 @@ export default function Projects() {
       technologies: ["React", "TypeScript", "Bootstrap", "Git"],
       description:
         "An interactive Kanban board that has dynamic card management functionality, with drag-and-drop functions implemented with dnd-kit.",
+      repoLink: "https://github.com/mohamad-jamil/kanbanize",
+      deploymentLink: "https://kanbanize-two-eta.vercel.app/",
     },
     {
       imgUrl: "/pseudopass.png",
@@ -15,6 +17,8 @@ export default function Projects() {
       technologies: ["React", "JavaScript", "Bootstrap", "Git"],
       description:
         "A React-based pseudorandom password generator that creates secure and customisable passwords with adjustable length and complexity settings.",
+      repoLink: "https://github.com/mohamad-jamil/pseudopass",
+      deploymentLink: "https://pseudopass.vercel.app/",
     },
     {
       imgUrl: "/chef-mistral.png",
@@ -22,6 +26,8 @@ export default function Projects() {
       technologies: ["React", "JavaScript", "Mistral AI", "Git"],
       description:
         "A tool that generates recipe suggestions by sending user-inputted ingredients to a Mistral AI backend with a custom prompt.",
+      repoLink: "https://github.com/mohamad-jamil/chef-mistral",
+      deploymentLink: "",
     },
     {
       imgUrl: "/tetris_ai.jpg",
@@ -29,6 +35,8 @@ export default function Projects() {
       technologies: ["Python", "Tensorflow", "Git"],
       description:
         "Developed and trained an AI tool with Python and Tensorflow to play Tetris with high accuracy using reinforcement learning techniques.",
+      repoLink: "",
+      deploymentLink: "",
     },
     {
       imgUrl: "/navpog.png",
@@ -36,6 +44,8 @@ export default function Projects() {
       technologies: ["Unity", "C#", "OpenARCloud", "Git"],
       description:
         "An augmented reality navigation and information system for UCL allowing users to view locations and collaborate with others to remotely place virtual objects on campus.",
+      repoLink: "https://github.com/AdnanBen/oscp-unity-NavPOG",
+      deploymentLink: "",
     },
     {
       imgUrl: "/tend.png",
@@ -43,6 +53,8 @@ export default function Projects() {
       technologies: ["Unity", "C#", "REST APIs", "Figma", "Git"],
       description:
         "Volunteered for a startup called Tend to implement a speech-to-text questionnaire in a virtual reality meditation environment using Google's Speech-to-Text API.",
+      repoLink: "",
+      deploymentLink: "",
     },
     {
       imgUrl: "/neural_nets.png",
@@ -50,6 +62,8 @@ export default function Projects() {
       technologies: ["Python", "Jupyter Notebook", "SciKit-Learn"],
       description:
         "Compared machine learning models in Python to determine which was best for the application of predicting credit card default.",
+      repoLink: "",
+      deploymentLink: "",
     },
     {
       imgUrl: "/linux.png",
@@ -57,6 +71,8 @@ export default function Projects() {
       technologies: ["Java", "Unix", "Git"],
       description:
         "Developed a custom shell from scratch, designed to replicate the functionality of a traditional Unix shell. Supports file manipulation, process management, and redirection.",
+      repoLink: "",
+      deploymentLink: "",
     },
   ];
 
@@ -70,10 +86,13 @@ export default function Projects() {
       <div className="flex flex-wrap justify-center gap-10 my-12">
         {projects.map((project) => (
           <ProjectCard
+            key={project.projectName}
             imgUrl={project.imgUrl}
             projectName={project.projectName}
             technologies={project.technologies.join(", ")}
             description={project.description}
+            repoLink={project.repoLink}
+            deploymentLink={project.deploymentLink}
           />
         ))}
       </div>
