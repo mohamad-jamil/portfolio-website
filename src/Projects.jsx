@@ -67,11 +67,11 @@ export default function Projects() {
     },
     {
       imgUrl: "/linux.png",
-      projectName: "Java Shell",
-      technologies: ["Java", "Unix", "Git"],
+      projectName: "C Shell",
+      technologies: ["C", "Unix", "Git"],
       description:
-        "Developed a custom shell from scratch, designed to replicate the functionality of a traditional Unix shell. Supports file manipulation, process management, and redirection.",
-      repoLink: "",
+        "Developed a Unix shell in C that implemented command execution, I/O redirection, pipelines, background processes, and conditional operations using system calls like fork() and exec().",
+      repoLink: "https://github.com/mohamad-jamil/unix-shell",
       deploymentLink: "",
     },
   ];
