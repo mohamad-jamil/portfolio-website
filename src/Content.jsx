@@ -31,6 +31,9 @@ export default function Content() {
         <a href="https://www.credly.com/users/mohamad-jamil/" target="_blank">
           <img src="/credly.svg" alt="credly logo" className="w-16 h-16" />
         </a>
+        <a href="https://leetcode.com/u/ItsJam/" target="_blank">
+          <img src="/leetcode.svg" alt="leetcode logo" className="w-16 h-16" />
+        </a>
       </div>
     </div>
   );
