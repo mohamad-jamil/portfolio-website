@@ -14,7 +14,7 @@ export default function Header() {
         <div className="text-xl font-black">Mohamad Jamil</div>
 
         <div className="hidden sm:flex text-base gap-8">
-          <HeaderLink section="About" active={true} />
+          <HeaderLink section="About" active={false} />
           <HeaderLink section="Projects" active={false} />
           <HeaderLink section="Skills" active={false} />
           <HeaderLink section="Contact" active={false} />
@@ -39,7 +39,7 @@ export default function Header() {
       </nav>
       {mobileMenuActive && (
         <div className="sm:hidden flex flex-col p-6 gap-3">
-          <HeaderLink section="About" active={true} />
+          <HeaderLink section="About" active={false} />
           <HeaderLink section="Projects" active={false} />
           <HeaderLink section="Skills" active={false} />
           <HeaderLink section="Contact" active={false} />
