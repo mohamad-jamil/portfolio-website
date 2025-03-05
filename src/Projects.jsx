@@ -3,13 +3,13 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   const projects = [
     {
-      imgUrl: "/kanbanize.png",
-      projectName: "Kanbanize",
-      technologies: ["React", "TypeScript", "Bootstrap", "Git"],
+      imgUrl: "/chef-mistral.png",
+      projectName: "Chef Mistral",
+      technologies: ["React", "JavaScript", "Mistral AI", "Git"],
       description:
-        "An interactive Kanban board that has dynamic card management functionality, with drag-and-drop functions implemented with dnd-kit.",
-      repoLink: "https://github.com/mohamad-jamil/kanbanize",
-      deploymentLink: "https://kanbanize-two-eta.vercel.app/",
+        "A tool that generates recipe suggestions by sending user-inputted ingredients to a Mistral AI backend with a custom prompt.",
+      repoLink: "https://github.com/mohamad-jamil/chef-mistral",
+      deploymentLink: "https://chef-mistral.vercel.app/",
     },
     {
       imgUrl: "/pseudopass.png",
@@ -21,13 +21,13 @@ export default function Projects() {
       deploymentLink: "https://pseudopass.vercel.app/",
     },
     {
-      imgUrl: "/chef-mistral.png",
-      projectName: "Chef Mistral",
-      technologies: ["React", "JavaScript", "Mistral AI", "Git"],
+      imgUrl: "/kanbanize.png",
+      projectName: "Kanbanize",
+      technologies: ["React", "TypeScript", "Bootstrap", "Git"],
       description:
-        "A tool that generates recipe suggestions by sending user-inputted ingredients to a Mistral AI backend with a custom prompt.",
-      repoLink: "https://github.com/mohamad-jamil/chef-mistral",
-      deploymentLink: "https://chef-mistral.vercel.app/",
+        "An interactive Kanban board that has dynamic card management functionality, with drag-and-drop functions implemented with dnd-kit.",
+      repoLink: "https://github.com/mohamad-jamil/kanbanize",
+      deploymentLink: "https://kanbanize-two-eta.vercel.app/",
     },
     {
       imgUrl: "/tetris_ai.jpg",
