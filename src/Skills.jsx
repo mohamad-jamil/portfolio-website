@@ -66,19 +66,27 @@ export default function Skills() {
   ];
 
   return (
-    <main id="skills" className="bg-[#141d1e] flex flex-col items-center py-36">
-      <div className="text-white font-mono text-4xl">Skills</div>
-      <div className="w-20 h-1 bg-white mt-4"></div>
-      <div className="flex flex-wrap items-center justify-center gap-6 mt-8 px-8">
-        {skills.map((skill) => (
-          <SkillCard
-            key={skill.skill}
-            skill={skill.skill}
-            link={skill.link}
-            logo={skill.logo}
-          />
-        ))}
+    <section id="skills" className="py-16 sm:py-20">
+      <div className="mx-auto max-w-6xl container-px">
+        <h2 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl dark:text-white">
+          Skills
+        </h2>
+        <div className="mt-4 h-1 w-20 rounded-full bg-emerald-300/70" />
+        <p className="mt-6 max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-300">
+          Languages, frameworks, and tools I use to build and ship software.
+        </p>
+
+        <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+          {skills.map((skill) => (
+            <SkillCard
+              key={skill.skill}
+              skill={skill.skill}
+              link={skill.link}
+              logo={skill.logo}
+            />
+          ))}
+        </div>
       </div>
-    </main>
+    </section>
   );
 }
