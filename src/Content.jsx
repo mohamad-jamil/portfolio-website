@@ -8,7 +8,7 @@ export default function Content() {
           <div className="relative grid gap-10 p-8 sm:p-10 lg:grid-cols-[1fr_auto] lg:items-center lg:gap-14">
             <div>
               <h1 className="text-balance text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl dark:text-white">
-                Hey world, I'm Jamil.
+                Hello world, I'm Jamil.
               </h1>
               <div className="mt-4 h-1 w-28 rounded-full bg-emerald-300/70" />
 
