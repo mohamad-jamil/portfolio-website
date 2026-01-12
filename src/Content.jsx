@@ -13,15 +13,16 @@ export default function Content() {
               <div className="mt-4 h-1 w-28 rounded-full bg-emerald-300/70" />
 
               <p className="mt-8 max-w-3xl text-pretty text-base leading-7 text-slate-700 dark:text-slate-200">
-                Hey! I'm Jamil, a CS master's graduate from UCL with a passion for
-                software development and data science. With a strong foundation in
-                Computer Science, I'm well equipped with a solid technical skillset and
-                a curiosity to explore and innovate!
+                Hey! I'm Jamil, a CS master's graduate from UCL with a passion
+                for software development and data science. With a strong
+                foundation in Computer Science, I'm well equipped with a solid
+                technical skillset and a curiosity to explore and innovate!
               </p>
               <p className="mt-4 max-w-3xl text-pretty text-base leading-7 text-slate-700 dark:text-slate-200">
-                Beyond my career and academics, I enjoy exploring new places, and
-                staying active through running and football. I also have a creative
-                side, which I channel through sewing and cross stitching!
+                Beyond my career and academics, I enjoy exploring new places,
+                and staying active through running and football. I also have a
+                creative side, which I channel through sewing and cross
+                stitching!
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-3">
